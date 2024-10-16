@@ -1,51 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Courier New', Courier, monospace; /* Using a coding font */
+    background-image: url('https://media.istockphoto.com/id/1401568968/vector/blue-matrix-background-abstract-binary-code-wallpaper-template-for-hackathon-and-other.jpg?s=612x612&w=0&k=20&c=7WQvXlYcGvriTqRg-bQENTqDTISNnmOB5pSeprNqGBQ='); /* Background image */
+    background-size: cover; /* Ensure the image covers the whole background */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for the container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    color: #333;
+    text-align: center;
 }
 
-h3 {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-    color: #666;
+input {
+    background: rgba(0, 0, 0, 1);
+    width: calc(100%); /* Adjust width to account for padding */
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    font-family: 'Courier New', Courier, monospace; /* Consistent coding font */
+    color: #00ff00; /* Text color */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Green glow effect */
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.large-button {
-    font-size: 1.5em;
-    padding: 15px 30px;
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00;
+    color: black;
     border: none;
-    border-radius: 10px;
-    background-color: #6200ea;
-    color: white;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.large-button:hover {
-    background-color: #3700b3;
+button:hover {
+    background-color: #3ac314;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    background: black; /* Background for binary output */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace; /* Consistent coding font */
+    color: #00ff00; /* Text color */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Green glow effect */
 }
